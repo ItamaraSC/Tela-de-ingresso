@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.cabecalho{
+    position: relative;
+    background:linear-gradient(to top, rgba(165, 42, 42, 0.575),rgb(94, 93, 93));
+    height: 55px;
+    width: 40%;
+    left: 33%;
+    border-radius: 15px;
+    margin-top: 1%;
+}
+
+.lista-cabecalho{
+    position: relative;
+    left: 10%;
+    font-family: "Jersey 10";
+    font-weight: 80px;
+    font-style: normal;
+    width: 100%;
+    list-style-type: none;
+    font-size: 50px;
+    display: flex;
+}
+
+.lista-cabecalho li{
+   position: relative;
+   justify-content: center;
+   margin-right: 30px;
+}
+
+a {
+    color: rgb(44, 16, 3);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(27, 167, 97);
+}
+
+.fieldset{
+    display: flex;
+    background-size: cover;
+    width: 99.8%;
+    height: 190px;
+    background-repeat:no-repeat;
+    position: relative;
+    border: none;
+    margin-top: 1%;
+}
+
+.imagem-fiel{
+    display: flex;
+    width: 100%;
+}
+h1{
+    margin-top: 1%;
+    left: 08%;
+    color: white;
+    font-size: 35px;
+    text-align: justify;
+}
+.form{
+    position: relative;
+    left: 10%;
+    color: white;
+    font-size: 25px;
+    margin-top: 6%;
+    background-color: rgba(128, 128, 128, 0.336);
+    backdrop-filter: blur(18px);
+    width: 20%;
+    padding: 1%;
+    border-radius: 30px;
+    text-align: center;
+}
+.cartaz img{
+    position: absolute;
+    align-items: center;
+    left: 38%;
+    margin-top: -23%;
+    width: 435px;
+}
+.sinopse{
+    color: white;
+    width: 30%;
+    position: relative;
+    left: 64%;
+    margin-top: -15%;
+    font-size: 20px;
+}
+footer{
+   position: relative;
+    color: white;
+    left: 75%;
+    margin-top:16%;
+    width: 15%;
+}
